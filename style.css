@@ -1,0 +1,336 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #e0e0e0;
+  background-color: #0d1117;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 32px 40px;
+}
+
+.topbar {
+  display: flex;
+  column-gap: 18px;
+  padding: 8px 0 26px;
+}
+
+.brand {
+  display: flex;
+  column-gap: 12px;
+}
+
+.brand-mark {
+  width: 60px;
+  height: 40px;
+  background-color: #0d1117;
+  color: #ffffff;
+  display: flex;
+  padding: 0;
+  border: 1px solid #30363d;
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+}
+
+.brand strong {
+  color: #e0e0e0;
+}
+
+.brand span {
+  color: #a0a0a0;
+}
+
+.menu {
+  display: flex;
+  column-gap: 10px;
+}
+
+.menu a {
+  padding: 10px 14px;
+  background-color: #1c2128;
+  border: 1px solid #30363d;
+  color: #e0e0e0;
+}
+
+.menu a.active {
+  background-color: #c41e3a;
+  color: #ffffff;
+  border-color: #c41e3a;
+}
+
+.hero,
+.split,
+.form-layout {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 24px;
+}
+
+.hero {
+  padding: 18px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+}
+
+.hero-copy,
+.hero-visual,
+.panel,
+.form-box {
+  flex: 1;
+}
+
+.hero-copy {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #58a6ff;
+}
+
+.hero h1,
+.page-title {
+  margin: 0;
+  color: #f0f0f0;
+}
+
+.lead,
+.intro,
+.text,
+.small-text {
+  color: #a0a0a0;
+}
+
+.lead {
+  margin: 0;
+  max-width: 58ch;
+}
+
+.cta-row {
+  display: flex;
+  column-gap: 12px;
+  margin-top: 22px;
+}
+
+.btn {
+  display: flex;
+  padding: 12px 18px;
+  border: 1px solid transparent;
+  color: #ffffff;
+}
+
+.btn.primary {
+  background-color: #c41e3a;
+}
+
+.btn.secondary {
+  background-color: #21262d;
+  color: #e0e0e0;
+  border-color: #30363d;
+}
+
+.hero-visual {
+  background-color: #1c2128;
+  padding: 14px;
+  display: flex;
+  height: 340px;
+}
+
+.section {
+  margin-top: 28px;
+}
+
+.section-title {
+  margin: 0 0 10px;
+  color: #e0e0e0;
+}
+
+.cards {
+  display: flex;
+  column-gap: 18px;
+  row-gap: 18px;
+}
+
+.card,
+.car-card,
+.info-card,
+.form-box,
+.panel {
+  background-color: #1c2128;
+  border: 1px solid #30363d;
+}
+
+.card {
+  width: 22%;
+  padding: 20px;
+  border-color: #c41e3a;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+}
+
+.card h3,
+.car-card h3,
+.panel h3,
+.form-box h3 {
+  margin: 0 0 10px;
+  color: #e0e0e0;
+}
+
+.car-card {
+  width: 22%;
+  border-color: #58a6ff;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+}
+
+.car-card-body {
+  padding: 18px;
+}
+
+.meta-row,
+.spec-row,
+.summary-row {
+  display: flex;
+  column-gap: 12px;
+}
+
+.meta-row {
+  margin-top: 10px;
+  color: #a0a0a0;
+}
+
+.spec-row {
+  padding: 10px 0;
+  border-color: #30363d;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+}
+
+.spec-row strong,
+.summary-row strong {
+  color: #e0e0e0;
+}
+
+.spec-row span,
+.summary-row span {
+  color: #a0a0a0;
+}
+
+.card-link {
+  display: flex;
+  margin-top: 14px;
+  color: #58a6ff;
+}
+
+.panel,
+.form-box {
+  padding: 22px;
+}
+
+.spec-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.spec-item {
+  display: flex;
+  column-gap: 12px;
+  border-color: #30363d;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  padding-bottom: 10px;
+}
+
+.mini-cards {
+  display: flex;
+  column-gap: 18px;
+  row-gap: 18px;
+  margin-top: 18px;
+}
+
+.mini-card {
+  width: 30%;
+  padding: 16px;
+  background-color: #21262d;
+  border: 1px solid #30363d;
+}
+
+.mini-card h4 {
+  margin: 0 0 8px;
+  color: #e0e0e0;
+}
+
+.form-box {
+  flex: 1;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.field.full {
+  width: 100%;
+}
+
+label {
+  color: #e0e0e0;
+}
+
+input {
+  width: 100%;
+  height: 46px;
+  padding: 0 14px;
+  border: 1px solid #30363d;
+  font-family: 'Poppins', sans-serif;
+  color: #e0e0e0;
+  background-color: #0d1117;
+}
+
+.form-actions {
+  margin-top: 0;
+}
+
+input[type='submit'] {
+  background-color: #c41e3a;
+  color: #ffffff;
+  border: none;
+}
+
+.footer {
+  margin-top: 28px;
+  padding: 16px 0 4px;
+  color: #a0a0a0;
+}
